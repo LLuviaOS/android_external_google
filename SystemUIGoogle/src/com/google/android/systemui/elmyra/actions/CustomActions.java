@@ -83,19 +83,19 @@ public class CustomActions extends Action {
                 break;
             case 9: // Notification panel
                 if (isScreenOn) {
-                    //lluviaUtils.toggleNotifications();
+                    lluviaUtils.toggleNotifications();
                 }
                 break;
             case 10: // QS panel
                 if (isScreenOn) {
-                    // lluviaUtils.toggleQsPanel();
+                    lluviaUtils.toggleQsPanel();
                 }
                 break;
             case 11: // Clear notifications
-                // ActionUtils.clearAllNotifications();
+                lluviaUtils.clearAllNotifications();
                 break;
             case 12: // Ringer modes
-                // lluviaUtils.toggleRingerModes(getContext());
+                lluviaUtils.toggleRingerModes(getContext());
                 break;
         }
     }
